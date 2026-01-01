@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="coststyle.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CDHERWMBJF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CDHERWMBJF');
+</script>
+
+
+    <!-- npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch -->
+</head>
+<header class="ml-20">
+    <i class="fa-regular fa-clock text-2xl" style="color: #ffffff"></i>
+    <span class="ml-7 text-2xl font-serif text-white">By Snigdhendu</span>
+</header>
+<body class="w-[100vw] mt-5 flex flex-col justify-between overflow-x-hidden">
+
+    <div class="clock_main w-[100%] flex justify-evenly">
+
+        <div class="clock-container">
+            <div class="clock flex justify-center items-center w-96 h-96 mt-20 mx-5 border-4 rounded-[50%] border-gray-600 relative transform bg-white">
+                <div class="clock-number absolute top-[6%] left-[50%]" data-number="12">12</div>
+                <div class="clock-number absolute top-[13%] left-[72%]" data-number="1">1</div>
+                <div class="clock-number absolute top-[28%] left-[88%]" data-number="2">2</div>
+                <div class="clock-number absolute top-[50%] left-[94%]" data-number="3">3</div>
+                <div class="clock-number absolute top-[72%] left-[90%]" data-number="4">4</div>
+                <div class="clock-number absolute top-[88%] left-[72%]" data-number="5">5</div>
+                <div class="clock-number absolute top-[94%] left-[50%]" data-number="6">6</div>
+                <div class="clock-number absolute top-[89%] left-[27%]" data-number="7">7</div>
+                <div class="clock-number absolute top-[72%] left-[10%]" data-number="8">8</div>
+                <div class="clock-number absolute top-[50%] left-[6%]" data-number="9">9</div>
+                <div class="clock-number absolute top-[28%] left-[12%]" data-number="10">10</div>
+                <div class="clock-number absolute top-[13%] left-[28%]" data-number="11">11</div>
+                
+                <div class="display_time_date_day absolute bottom-56 bg-gray-100 z-50 py-2 px-4 rounded-lg"></div>
+
+                <!-- Clock hands (you can animate these with JavaScript) -->
+                <div class="clock-hand hour-hand w-30 h-2 bg-black absolute right-47"></div>
+                <div class="clock-hand minute-hand w-36 h-1 bg-amber-800 absolute right-47"></div>
+                <div class="clock-hand second-hand w-44 h-0.5 bg-neutral-600 absolute right-47"></div>
+                
+                <!-- Center dot -->
+                <div class="clock-center absolute top-[50%] left-[50%] w-3 h-3 rounded-2xl border-2 bg-amber-800"></div>
+
+                <div class="display_time_day absolute top-56 bg-gray-100 z-50 py-2 px-4 rounded-lg"></div>
+                
+            </div>
+        </div> 
+
+    
+    </div>
+    
+    
+
+
+</body>
+</html>
