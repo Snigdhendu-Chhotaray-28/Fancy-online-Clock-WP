@@ -1,0 +1,21 @@
+
+.clock-number,
+.clock-center{
+     transform: translate(-50%, -50%);
+}
+
+@keyframes motion {
+     0%{
+          transform: rotate(0deg);
+          /* transform-origin: right center; */
+     }
+     50%{
+          transform: rotate(180deg);
+          /* transform-origin: right center; */
+     }
+     100%{
+          transform: rotate(360deg);
+          /* transform-origin: right center; */
+     }
+}
+
