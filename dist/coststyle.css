@@ -48,3 +48,8 @@
      transform-origin: right center;
      /* animation: motion 643200s linear 0s infinite; */
 }
+.minute-hand{
+     transform: rotate(90deg);
+     transform-origin: right center;
+     /* animation: motion 3600s linear 5s infinite; */
+}
