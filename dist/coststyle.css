@@ -58,3 +58,23 @@
      transform-origin: right center;
      /* animation: motion 60s linear 0s infinite; */
 }
+
+.year_item{
+     position: absolute;
+     width: 60px; /* Size of the small numbered divs */
+     height: 50px;
+     /* background-color: #ef4444; Red background for numbered divs */
+     border-radius: 50%; /* Make them circular */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* background: linear-gradient(90deg,rgb(0, 0, 0) 0%, rgb(41, 30, 255) 50%, rgb(75, 78, 255) 100%); */
+     color: rgb(255, 255, 255);
+     /* border: 0.5px solid black; */
+     font-weight: 600;
+     font-size: 1.3rem;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Shadow for numbered divs */
+     /* rotate: 90deg; */
+     /* animation: clockWise 10s linear 0s infinite; */
+}
+
