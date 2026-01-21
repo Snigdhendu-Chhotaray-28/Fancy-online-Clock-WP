@@ -97,3 +97,22 @@
      /* animation: clockWise 10s linear 0s infinite; */
 }
 
+.small_item{
+     position: absolute;
+     width: 25px; /* Size of the small numbered divs */
+     height: 20px;
+     /* background-color: #ef4444; Red background for numbered divs */
+     border-radius: 50%; /* Make them circular */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* background: linear-gradient(90deg,rgb(56, 255, 126) 0%, rgb(112, 255, 162) 50%, rgb(209, 255, 225) 100%); */
+     color: rgb(255, 255, 255);
+     /* border: 0.5px solid black; */
+     font-weight: 600;
+     font-size: 0.9rem;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Shadow for numbered divs */
+     /* rotate: 90deg; */
+     /* animation: clockWise 10s linear 0s infinite; */
+}
+
