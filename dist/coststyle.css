@@ -116,3 +116,10 @@
      /* animation: clockWise 10s linear 0s infinite; */
 }
 
+
+/* --- PAGE BACKGROUND --- */
+body {
+  background: linear-gradient(135deg, #41343a 0%, #2a1924 50%, #1A1423 100%);
+}
+
+
