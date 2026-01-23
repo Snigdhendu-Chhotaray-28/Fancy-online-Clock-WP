@@ -116,10 +116,22 @@
      /* animation: clockWise 10s linear 0s infinite; */
 }
 
-
+.sec,
+.min,
+.hour,
+.date,
+.month,
+.day,
+.year{
+     rotate: 0deg;
+     /* animation: anti_clockWise 10s linear 0s infinite; */
+}
 /* --- PAGE BACKGROUND --- */
 body {
   background: linear-gradient(135deg, #41343a 0%, #2a1924 50%, #1A1423 100%);
 }
 
-
+/* --- CIRCLE COLORS --- */
+.year {
+  background-color: #96705B !important;
+}
