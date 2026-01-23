@@ -135,3 +135,12 @@ body {
 .year {
   background-color: #96705B !important;
 }
+.sec {
+  background-color: #a1866f !important;
+}
+.min {
+  background-color: #b49782 !important;
+}
+.hour {
+  background-color: #8b6d5c !important;
+}
