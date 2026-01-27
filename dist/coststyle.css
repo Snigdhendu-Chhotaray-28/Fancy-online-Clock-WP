@@ -159,4 +159,10 @@ body {
   color: #e1dacc !important; /* Light text for legibility */
 }
 
+/* --- Highlight for Active Value --- */
+.high_light {
+  background-color: #d4af7f !important;
+  color: #1A1423 !important;
+}
+
 
