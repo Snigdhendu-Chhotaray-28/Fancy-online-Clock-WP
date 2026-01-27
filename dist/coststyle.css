@@ -165,4 +165,11 @@ body {
   color: #1A1423 !important;
 }
 
-
+/* Horizontal or vertical strip (e.g., .strip) */
+.strip {
+  background-color: #508D7C; /* Deep Teal for bold accent */
+  height: 8px;               /* adjust as needed */
+  width: 100%;               /* or layout-specific width */
+  border-radius: 4px;        /* optional for soft edges */
+  margin: 16px 0;            /* add spacing if desired */
+}
