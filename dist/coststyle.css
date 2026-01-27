@@ -153,3 +153,10 @@ body {
 .day {
   background-color: #c8b39a !important;
 }
+
+/* --- Text Color for Circles --- */
+.year, .sec, .min, .hour, .date, .month, .day {
+  color: #e1dacc !important; /* Light text for legibility */
+}
+
+
