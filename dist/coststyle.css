@@ -179,3 +179,8 @@ body {
   background-color: #d4af7f; /* Soft gold for attention */
 }
 
+/* For a subtle divider strip */
+.strip-divider {
+  background-color: #c8b39a; /* Light neutral tone */
+  height: 2px;
+}
