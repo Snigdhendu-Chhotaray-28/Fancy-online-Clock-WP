@@ -173,3 +173,9 @@ body {
   border-radius: 4px;        /* optional for soft edges */
   margin: 16px 0;            /* add spacing if desired */
 }
+
+/* For a highlight strip */
+.strip-highlight {
+  background-color: #d4af7f; /* Soft gold for attention */
+}
+
