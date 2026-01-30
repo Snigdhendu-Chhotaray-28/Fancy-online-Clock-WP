@@ -38,7 +38,18 @@ startTimer();
 
 window.addEventListener('load',()=>{
 
-   
+    // ================ Circular clock data assign ================ //
+
+    const yearCercle = document.querySelector('.year');
+    const secCercle = document.querySelector('.sec');
+    const minCercle = document.querySelector('.min');
+    const hourCercle = document.querySelector('.hour');
+    const dateCercle = document.querySelector('.date');
+    const monthCercle = document.querySelector('.month');
+    const dayCercle = document.querySelector('.day');
+    const countryCercle = document.querySelector('.country');
+
+
 
    
 
