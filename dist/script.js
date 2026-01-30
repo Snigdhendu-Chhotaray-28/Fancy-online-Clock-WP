@@ -34,3 +34,13 @@ function startTimer() {
 }
 startTimer();
 
+
+
+window.addEventListener('load',()=>{
+
+   
+
+   
+
+
+});
