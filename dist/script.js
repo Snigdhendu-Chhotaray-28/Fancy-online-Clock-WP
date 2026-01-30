@@ -49,7 +49,11 @@ window.addEventListener('load',()=>{
     const dayCercle = document.querySelector('.day');
     const countryCercle = document.querySelector('.country');
 
+    const classes = [secCercle,minCercle,hourCercle,dateCercle,yearCercle,monthCercle,dayCercle];
+    const divs = [60,60,24,31,20,12,7];
 
+    const month_obj = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const weak = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
    
 
