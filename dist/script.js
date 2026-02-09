@@ -61,7 +61,17 @@ window.addEventListener('load',()=>{
         let yearCercle_width = classes[j].offsetWidth;
         let yearCercle_height = classes[j].offsetHeight;
         // console.log(j);
-        
+        for(let i = 0; i< divs[j] ; i++){
+            let angle = (i/divs[j]) * 2 * Math.PI;
+            let x = yearCercle_width/2 + (yearCercle_width/2-40) * Math.sin(angle);
+            let y = yearCercle_height/2 + (yearCercle_height/2-40) * Math.cos(angle);
+            // console.log(x);
+            let div = document.createElement('div');
+            div.classList ='small_ele';
+            
+            
+            classes[j].appendChild(div);
+        }
     }
 
 
