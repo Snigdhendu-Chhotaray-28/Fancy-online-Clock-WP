@@ -55,7 +55,16 @@ window.addEventListener('load',()=>{
     const month_obj = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     const weak = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
-   
+    // console.log(divs[0]);
+
+    for(let j = 0; j< 7; j++){
+        let yearCercle_width = classes[j].offsetWidth;
+        let yearCercle_height = classes[j].offsetHeight;
+        // console.log(j);
+        
+    }
+
+
 
 
 });
