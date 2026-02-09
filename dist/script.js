@@ -68,7 +68,56 @@ window.addEventListener('load',()=>{
             // console.log(x);
             let div = document.createElement('div');
             div.classList ='small_ele';
-            
+            if(divs[j]==20){
+                div.textContent = `${i+2010}`;
+                div.classList = 'year_item';
+            }
+            else if(divs[j]==12){
+                div.textContent = `${month_obj[i]}`;
+                div.classList = 'other_item';
+                x = yearCercle_width/2 + (yearCercle_width/2-26) * Math.sin(angle);
+                y = yearCercle_height/2 + (yearCercle_height/2-28) * Math.cos(angle);
+            }
+            else if(divs[j]==7){
+                div.textContent = `${weak[i]}`;
+                div.classList = 'other_item';
+                x = yearCercle_width/2 + (yearCercle_width/2-26) * Math.sin(angle);
+                y = yearCercle_height/2 + (yearCercle_height/2-28) * Math.cos(angle);
+            }
+            else if(divs[j]==60 || divs[j]==31){
+                if(divs[j]==60){
+                    div.textContent = `${i}`;
+                }
+                else{
+                    div.textContent = `${i+1}`;
+                }
+                div.classList = 'small_item';
+                x = yearCercle_width/2 + (yearCercle_width/2-26) * Math.sin(angle);
+                y = yearCercle_height/2 + (yearCercle_height/2-28) * Math.cos(angle);
+            }
+            else{
+                if(divs[j]==24){
+                    div.textContent = `${i}`;
+                }
+                else{
+                    div.textContent = `${i+1}`;
+                }
+                div.classList = 'other_item';
+                x = yearCercle_width/2 + (yearCercle_width/2-26) * Math.sin(angle);
+                y = yearCercle_height/2 + (yearCercle_height/2-28) * Math.cos(angle);
+            }
+            if(divs[j]==20){
+                div.style.left = `${x-35}px`;
+                div.style.top = `${y-25}px`;
+            }
+            else if(divs[j]==60 || divs[j]==31){
+                div.style.left = `${x-19}px`;
+                div.style.top = `${y-11}px`;
+            }
+            else{
+                div.style.left = `${x-25}px`;
+                div.style.top = `${y-18}px`;
+            }
             
             classes[j].appendChild(div);
         }
