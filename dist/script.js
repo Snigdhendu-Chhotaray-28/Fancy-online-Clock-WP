@@ -124,6 +124,15 @@ window.addEventListener('load',()=>{
     }
 
 
+    // ================ Strip clock data assign ================ //
+
+    let hr1 = document.querySelector('.hr1 .context');
+    let hr2 = document.querySelector('.hr2 .context');
+    let min1 = document.querySelector('.min1 .context');
+    let min2 = document.querySelector('.min2 .context');
+    let sec1 = document.querySelector('.sec1 .context');
+    let sec2 = document.querySelector('.sec2 .context');
+
 
 
 });
