@@ -133,6 +133,10 @@ window.addEventListener('load',()=>{
     let sec1 = document.querySelector('.sec1 .context');
     let sec2 = document.querySelector('.sec2 .context');
 
+    const objects = [hr1,hr2,min1,min2,sec1,sec2];
+    const values = [3,10,6,10,6,10]
+
+
 
 
 });
