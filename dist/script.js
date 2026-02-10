@@ -136,7 +136,13 @@ window.addEventListener('load',()=>{
     const objects = [hr1,hr2,min1,min2,sec1,sec2];
     const values = [3,10,6,10,6,10]
 
-
+    objects.forEach((object,idx) => {
+        for(let i=0; i<values[idx]; i++){
+            let newEl = document.createElement('div');
+            newEl.innerText = i;
+            object.appendChild(newEl);
+        }
+    });
 
 
 });
