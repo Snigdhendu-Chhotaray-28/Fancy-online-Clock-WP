@@ -149,7 +149,20 @@ window.addEventListener('load',()=>{
 
     const intervalId = setInterval(() => {
 
-       
+        // =========== Circular clock data =========== //
+
+        const correntTime =  new Date();
+        let hour = correntTime.getHours()*15;
+        let min = correntTime.getMinutes()*6;
+        let sec = correntTime.getSeconds()*6;
+        let day = correntTime.getDay()*(360/7);
+        let date = correntTime.getDate()*(360/31) - (360/31);
+        // console.log(date);
+        let month = correntTime.getMonth()*30;
+        let year = (correntTime.getFullYear() - 2010)*18;
+
+
+
 
     }, 1000);
 
