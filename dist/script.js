@@ -145,4 +145,12 @@ window.addEventListener('load',()=>{
     });
 
 
+    // ================== Clock functionality ================== //
+
+    const intervalId = setInterval(() => {
+
+       
+
+    }, 1000);
+
 });
