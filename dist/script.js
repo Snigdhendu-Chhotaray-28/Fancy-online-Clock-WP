@@ -162,6 +162,16 @@ window.addEventListener('load',()=>{
         let year = (correntTime.getFullYear() - 2010)*18;
 
 
+        // =========== Strip clock functionality =========== //
+
+        let hr1_val = Math.floor(correntTime.getHours()/10);
+        let hr2_val = correntTime.getHours()%10;
+
+        let min1_val = Math.floor(correntTime.getMinutes()/10);
+        let min2_val = correntTime.getMinutes()%10;
+
+        let sec1_val = Math.floor(correntTime.getSeconds()/10);
+        let sec2_val = correntTime.getSeconds()%10;
 
 
     }, 1000);
