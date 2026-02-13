@@ -184,6 +184,13 @@ window.addEventListener('load',()=>{
             sec_circle.style.transform = `rotate(${sec-90}deg)`;
             let sec_children = sec_circle.children;
 
+            //  The .children property returns an HTMLCollection, not a JavaScript Array. HTMLCollections do not have the .array property, nor do they directly support array methods like .forEach unless converted to an actual array.
+
+            Array.from(sec_children).forEach(element => {
+                element.style.transform = `rotate(${-sec+90}deg)`;
+            });
+            // sec++;
+
 
 
         }
