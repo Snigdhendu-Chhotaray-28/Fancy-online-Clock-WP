@@ -176,6 +176,15 @@ window.addEventListener('load',()=>{
         function startClock(){
 
             
+            // =========== Circular clock functionality =========== //
+
+             // =================== Sec section =================== //
+
+            let sec_circle = document.querySelector('.sec');
+            sec_circle.style.transform = `rotate(${sec-90}deg)`;
+            let sec_children = sec_circle.children;
+
+
 
         }
         startClock();
