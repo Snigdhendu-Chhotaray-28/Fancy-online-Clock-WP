@@ -173,7 +173,12 @@ window.addEventListener('load',()=>{
         let sec1_val = Math.floor(correntTime.getSeconds()/10);
         let sec2_val = correntTime.getSeconds()%10;
 
+        function startClock(){
 
+            
+
+        }
+        startClock();
     }, 1000);
 
 });
