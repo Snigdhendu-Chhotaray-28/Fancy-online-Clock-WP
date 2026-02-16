@@ -198,6 +198,11 @@ window.addEventListener('load',()=>{
             min_circle.style.transform = `rotate(${min-90}deg)`;
             let min_children = min_circle.children;
 
+            Array.from(min_children).forEach(element => {
+                element.style.transform = `rotate(${-min+90}deg)`;
+            });
+            // min++;
+
 
 
 
