@@ -204,7 +204,11 @@ window.addEventListener('load',()=>{
             // min++;
 
 
+             // ================== Hour section ================== //
 
+            let hour_circle = document.querySelector('.hour');
+            hour_circle.style.transform = `rotate(${hour-90}deg)`;
+            let hour_children = hour_circle.children;
 
         }
         startClock();
