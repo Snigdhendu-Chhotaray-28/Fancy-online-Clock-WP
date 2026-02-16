@@ -192,6 +192,14 @@ window.addEventListener('load',()=>{
             // sec++;
 
 
+            // =================== Min section =================== //
+
+            let min_circle = document.querySelector('.min');
+            min_circle.style.transform = `rotate(${min-90}deg)`;
+            let min_children = min_circle.children;
+
+
+
 
         }
         startClock();
