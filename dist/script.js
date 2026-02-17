@@ -210,6 +210,13 @@ window.addEventListener('load',()=>{
             hour_circle.style.transform = `rotate(${hour-90}deg)`;
             let hour_children = hour_circle.children;
 
+            Array.from(hour_children).forEach(element => {
+                element.style.transform = `rotate(${-hour+90}deg)`;
+            });
+            // hour++;
+
+
+
         }
         startClock();
     }, 1000);
