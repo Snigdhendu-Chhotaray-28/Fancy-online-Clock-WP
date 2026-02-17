@@ -216,6 +216,12 @@ window.addEventListener('load',()=>{
             // hour++;
 
 
+            // ================== Date section ================== //
+
+            let date_circle = document.querySelector('.date');
+            date_circle.style.transform = `rotate(${date-90}deg)`;
+            let date_children = date_circle.children;
+
 
         }
         startClock();
