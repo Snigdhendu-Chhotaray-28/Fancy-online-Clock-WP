@@ -222,6 +222,12 @@ window.addEventListener('load',()=>{
             date_circle.style.transform = `rotate(${date-90}deg)`;
             let date_children = date_circle.children;
 
+            Array.from(date_children).forEach(element => {
+                element.style.transform = `rotate(${-date+90}deg)`;
+            });
+            // date++;
+
+
 
         }
         startClock();
