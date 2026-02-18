@@ -240,6 +240,11 @@ window.addEventListener('load',()=>{
             // month++;
 
 
+            // ================== Day section ================== //
+
+            let day_circle = document.querySelector('.day');
+            day_circle.style.transform = `rotate(${day-90}deg)`;
+            let day_children = day_circle.children;
 
         }
         startClock();
