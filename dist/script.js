@@ -234,6 +234,10 @@ window.addEventListener('load',()=>{
             month_circle.style.transform = `rotate(${month-90}deg)`;
             let month_children = month_circle.children;
 
+            Array.from(month_children).forEach(element => {
+                element.style.transform = `rotate(${-month+90}deg)`;
+            });
+            // month++;
 
 
 
