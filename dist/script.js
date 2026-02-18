@@ -228,6 +228,14 @@ window.addEventListener('load',()=>{
             // date++;
 
 
+            // ================== Month section ================== //
+
+            let month_circle = document.querySelector('.month');
+            month_circle.style.transform = `rotate(${month-90}deg)`;
+            let month_children = month_circle.children;
+
+
+
 
         }
         startClock();
