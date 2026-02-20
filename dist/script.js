@@ -259,6 +259,11 @@ window.addEventListener('load',()=>{
             // console.log(year);
             let year_children = year_circle.children;
 
+            Array.from(year_children).forEach(element => {
+                element.style.transform = `rotate(${-year+90}deg)`;
+            });
+            // day++;
+
 
         }
         startClock();
