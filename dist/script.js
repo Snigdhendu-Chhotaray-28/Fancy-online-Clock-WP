@@ -252,6 +252,13 @@ window.addEventListener('load',()=>{
             // day++;
 
 
+            // ================== Year section ================== //
+
+            let year_circle = document.querySelector('.year');
+            year_circle.style.transform = `rotate(${year-90}deg)`;
+            // console.log(year);
+            let year_children = year_circle.children;
+
 
         }
         startClock();
