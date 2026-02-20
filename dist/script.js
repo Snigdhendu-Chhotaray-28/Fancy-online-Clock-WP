@@ -246,6 +246,13 @@ window.addEventListener('load',()=>{
             day_circle.style.transform = `rotate(${day-90}deg)`;
             let day_children = day_circle.children;
 
+            Array.from(day_children).forEach(element => {
+                element.style.transform = `rotate(${-day+90}deg)`;
+            });
+            // day++;
+
+
+
         }
         startClock();
     }, 1000);
