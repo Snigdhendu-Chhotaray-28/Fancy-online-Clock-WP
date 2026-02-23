@@ -278,7 +278,16 @@ window.addEventListener('load',()=>{
 
 
 
+            // ================= Highlight ================= //
+            
+            classes.forEach((element,idx) => {
+                let els = element.children;
+                Array.from(els).forEach(el => {
+                    
 
+                });
+
+            });
         
 
 
