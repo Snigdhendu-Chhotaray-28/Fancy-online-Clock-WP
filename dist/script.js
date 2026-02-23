@@ -265,6 +265,24 @@ window.addEventListener('load',()=>{
             // day++;
 
 
+
+
+            // ============ Strip clock functionality ============ //
+
+            sec2.style.bottom = `${(sec2_val-2)*0.25*10}rem`;
+            sec1.style.bottom = `${sec1_val*0.25*10}rem`;
+            min1.style.bottom = `${min1_val*0.25*10}rem`;
+            min2.style.bottom = `${(min2_val-1)*0.25*10}rem`;
+            hr1.style.bottom = `${(hr1_val-1)*0.25*10}rem`;
+            hr2.style.bottom = `${(hr2_val-2)*0.25*10}rem`;
+
+
+
+
+        
+
+
+
         }
         startClock();
     }, 1000);
