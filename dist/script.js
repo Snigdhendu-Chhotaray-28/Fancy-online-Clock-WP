@@ -283,7 +283,16 @@ window.addEventListener('load',()=>{
             classes.forEach((element,idx) => {
                 let els = element.children;
                 Array.from(els).forEach(el => {
-                    
+                    if(idx==0){
+                        if(el.innerText==correntTime.getSeconds()){
+                            el.classList.add('high_light');
+                        }
+                        else{
+                            if(el.classList.contains('high_light')){
+                                el.classList.remove('high_light');
+                            }
+                        }
+                    }
 
                 });
 
