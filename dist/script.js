@@ -293,12 +293,14 @@ window.addEventListener('load',()=>{
                             }
                         }
                     }
+                    else if(idx==1){
+                        
+                    }
+                   
 
                 });
 
             });
-        
-
 
 
         }
