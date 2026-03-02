@@ -294,7 +294,10 @@ window.addEventListener('load',()=>{
                         }
                     }
                     else if(idx==1){
-                        
+                        if(el.innerText==correntTime.getMinutes()){
+                            el.classList.add('high_light');
+                        }
+
                     }
                    
 
