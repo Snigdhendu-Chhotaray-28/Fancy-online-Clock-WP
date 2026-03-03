@@ -304,6 +304,9 @@ window.addEventListener('load',()=>{
                         }
                     }
                     else if(idx==2){
+                        if(el.innerText==correntTime.getHours()){
+                            el.classList.add('high_light');
+                        }
                         
                     }
 
