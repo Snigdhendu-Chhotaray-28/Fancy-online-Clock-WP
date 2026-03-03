@@ -303,12 +303,14 @@ window.addEventListener('load',()=>{
                             }
                         }
                     }
-                   
+                    else if(idx==2){
+                        
+                    }
 
                 });
 
             });
-
+        
 
         }
         startClock();
