@@ -314,6 +314,9 @@ window.addEventListener('load',()=>{
                         }
                     }
                     else if(idx==3){
+                        if(el.innerText==correntTime.getDate()){
+                            el.classList.add('high_light');
+                        }
                         
                     }
 
