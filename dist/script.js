@@ -313,11 +313,15 @@ window.addEventListener('load',()=>{
                             }
                         }
                     }
+                    else if(idx==3){
+                        
+                    }
 
                 });
 
             });
         
+
 
         }
         startClock();
