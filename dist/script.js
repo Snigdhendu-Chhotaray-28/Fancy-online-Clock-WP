@@ -324,7 +324,9 @@ window.addEventListener('load',()=>{
                         }
                     }
                     else if(idx==4){
-                        
+                        if(el.innerText==correntTime.getFullYear()){
+                            el.classList.add('high_light');
+                        }
                         
                     }
                     
