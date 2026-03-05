@@ -327,7 +327,11 @@ window.addEventListener('load',()=>{
                         if(el.innerText==correntTime.getFullYear()){
                             el.classList.add('high_light');
                         }
-                        
+                        else{
+                            if(el.classList.contains('high_light')){
+                                el.classList.remove('high_light');
+                            }
+                        }
                     }
                     
                 });
