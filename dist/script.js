@@ -334,6 +334,9 @@ window.addEventListener('load',()=>{
                         }
                     }
                     else if(idx==5){
+                        if(el.innerText==month_obj[correntTime.getMonth()]){
+                            el.classList.add('high_light');
+                        }
                         
                     }
                     
