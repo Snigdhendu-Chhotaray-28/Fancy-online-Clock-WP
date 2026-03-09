@@ -344,6 +344,9 @@ window.addEventListener('load',()=>{
                         }
                     }
                     else if(idx==6){
+                        if(el.innerText==weak[correntTime.getDay()]){
+                            el.classList.add('high_light');
+                        }
                         
                     }
                 });
