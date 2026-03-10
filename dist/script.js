@@ -365,6 +365,8 @@ window.addEventListener('load',()=>{
             // ============ Display date and time ============ //
             document.querySelector('.running_date').innerHTML=`${correntTime.getHours()} : ${correntTime.getMinutes()} : ${correntTime.getSeconds()}`;
 
+            document.querySelector('.display_time').innerHTML=`${correntTime.getDate()}/${correntTime.getMonth()+1}/${correntTime.getFullYear()}`;
+
         }
         startClock();
     }, 1000);
