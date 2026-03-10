@@ -355,8 +355,15 @@ window.addEventListener('load',()=>{
                     }
                 });
 
-            });        
+            });
+        
 
+
+
+
+
+            // ============ Display date and time ============ //
+            document.querySelector('.running_date').innerHTML=`${correntTime.getHours()} : ${correntTime.getMinutes()} : ${correntTime.getSeconds()}`;
 
         }
         startClock();
