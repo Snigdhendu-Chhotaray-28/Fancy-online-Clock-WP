@@ -63,5 +63,6 @@ Snigdhendu Chhotaray
 
 🔗 Live Preview
 
-<img scr="https://raw.githubusercontent.com/Snigdhendu-Chhotaray-28/Fancy-online-Clock-WP/refs/heads/main/dist/resources/image%20copy.png">
-<img scr="https://raw.githubusercontent.com/Snigdhendu-Chhotaray-28/Fancy-online-Clock-WP/refs/heads/main/dist/resources/image.png">
+<img scr="https://github.com/Snigdhendu-Chhotaray-28/Fancy-online-Clock-WP/issues/2#issue-4064938270">
+
+<img scr="https://github.com/Snigdhendu-Chhotaray-28/Fancy-online-Clock-WP/issues/3#issue-4064953389">
